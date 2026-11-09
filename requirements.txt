@@ -1,0 +1,6 @@
+pyTelegramBotAPI>=4.20.0
+google-genai>=1.0.0
+# التخزين الدائم على PostgreSQL (مطلوب عند ضبط DATABASE_URL، مثل Render)
+psycopg2-binary>=2.9.9
+# اختياري: لتحويل نصوص تمارين الاستماع إلى صوت (إن لم تُثبَّت يرسل البوت النص بدلاً من الصوت)
+gTTS>=2.5.0
